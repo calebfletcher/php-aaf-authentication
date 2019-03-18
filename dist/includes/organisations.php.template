@@ -1,0 +1,5 @@
+<?php
+
+$organisations = [
+    'example.edu.au' => 'Example University'
+];

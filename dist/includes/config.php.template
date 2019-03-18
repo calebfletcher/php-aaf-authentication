@@ -1,0 +1,18 @@
+<?php
+
+$config = [
+    "auth_endpoint" => "", // Endpoint URL received from Rapid Connect
+    "auth_issuer" => "https://rapid.aaf.edu.au", // Issuer URL for the Federation the application is registered under
+    "auth_audience" => "", // Audience URL from registration with Rapid Connect
+    "secret_key" => "", // Secret key created during registration with Rapid Connect
+    "affiliations" => [ // Affiliation -> Display name mapping
+        "faculty" => "Faculty",
+        "student" => "Student",
+        "staff" => "Staff",
+        "employee" => "Employee",
+        "member" => "Member",
+        "affiliate" => "Affiliate",
+        "alum" => "Alum",
+        "library-walk-in" => "Library Walk-In"
+    ]
+];
