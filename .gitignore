@@ -1,4 +1,5 @@
 docker-compose.yml
+db
 dist/vendor
 dist/includes/config.php
 dist/includes/organisations.php
